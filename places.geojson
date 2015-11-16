@@ -1,0 +1,109 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Madison"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.4232177734375,
+          43.07691312608711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Boulder"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.27992248535156,
+          40.0076315603083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.39697265625,
+          33.73461876811943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Diego"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.12936401367188,
+          32.713355353177555
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "LA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.24996948242188,
+          34.05891711006568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Santa Barbara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.71595764160156,
+          34.4131410750013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "San Luis Obispo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.29435729980469,
+          34.278495955845514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Ventura"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.66421508789061,
+          35.30447893344309
+        ]
+      }
+    }
+  ]
+}

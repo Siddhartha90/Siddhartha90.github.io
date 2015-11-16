@@ -1,0 +1,54 @@
+<html>
+<head>
+  <title>My Visited Places</title>
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+  <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <style>
+  /*This could also be put in the css file*/
+    #map-div{ height: 100vh; }
+    /* OR #map{ width: 100%; height: 100%; }*/
+  </style>
+</head>
+<body>
+
+  <div id="map-div"></div>
+
+  <script>
+
+  var maxBounds =  L.latLngBounds(
+  L.latLng(42.00946, -114.130836),
+  L.latLng(32.53429, -124.409622)
+  );
+
+  // initialize the map
+  var map = L.map('map-div', {
+  'center': [0, 0],
+  'zoom': 0,
+  'layers': [
+    L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      'attribution': 'Map data &copy; OpenStreetMap contributors'
+    })
+  ],
+  'maxBounds': maxBounds
+}).fitBounds(maxBounds);
+  // var map = L.map('map-div').setView([42.35, -71.08], 13);
+
+  // load a tile layer
+  // http://tiles.mapc.org/basemap/{z}/{x}/{y}.png
+
+  // load GeoJSON from an external file
+  // $ is same as saying jQuery
+  // function is the callback.
+  $.getJSON("places.geojson",function(data){
+    // add GeoJSON layer to the map once the file is loaded
+    L.geoJson(data, {pointToLayer: function(feature,latlng){
+      var marker = L.marker(latlng);
+      marker.bindPopup(feature.properties.Location);
+      return marker;
+    }}).addTo(map);
+  });
+
+  </script>
+</body>
+</html>
