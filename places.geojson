@@ -82,7 +82,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Location": "San Luis Obispo"
+        "Location": "Ventura"
       },
       "geometry": {
         "type": "Point",
@@ -95,13 +95,130 @@
     {
       "type": "Feature",
       "properties": {
-        "Location": "Ventura"
+        "Location": "San Luis Obispo"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -120.66421508789061,
           35.30447893344309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Seattle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.6181640625,
+          47.69497434186282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Austin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.734375,
+          30.29701788337205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Monterey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.91390991210938,
+          36.595684037179055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "SF"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.47009277343749,
+          37.74900069437069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Lake Tahoe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0311279296875,
+          39.091699613104595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Denver"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.9798583984375,
+          39.73570624505104
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Anaheim"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.91625976562499,
+          33.83277921501038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "Naperville"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.15326690673828,
+          41.77336007442078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Location": "UIUC"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.20442199707031,
+          40.10643706682028
         ]
       }
     }
